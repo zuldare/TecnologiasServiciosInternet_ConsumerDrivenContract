@@ -32,4 +32,4 @@ que se entregará con la práctica (ver instrucciones de entrega más abajo)
 
 * Github: [@zuldare](https://github.com/zuldare)
 
-Se debe tener[instalar JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) y [Maven](https://maven.apache.org/install.html) 
+Se debe tener [instalado JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) y [Maven](https://maven.apache.org/install.html) 
