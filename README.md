@@ -25,7 +25,7 @@ esperado del endpoint getCity del servicio toposervice.
 - El código de los dos servicios se entregará dentro de una carpeta CDCT en el zip
 que se entregará con la práctica (ver instrucciones de entrega más abajo)
   
-```
+
 # Author
 
 👤 **Jaime Hernández Ortiz**
