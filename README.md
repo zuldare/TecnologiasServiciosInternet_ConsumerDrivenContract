@@ -25,6 +25,24 @@ esperado del endpoint getCity del servicio toposervice.
 - El código de los dos servicios se entregará dentro de una carpeta CDCT en el zip
 que se entregará con la práctica (ver instrucciones de entrega más abajo)
   
+# Uso
+
+## topoService
+Lanzar el comando, dentro de la carpeta del proyecto
+```shell
+$ mvn clean install
+```
+* Mediante este comando se lanzarán los tests de aceptación definidos en el fichero *get_city.groovy* <-> BaseCDC.java
+* Para evitar posibles conflictos el stub se genera con los datos:
+    - groupId: *jjhernandez2020*
+    - artifactId: *toposervice*
+
+## planner
+Lanzar el comando, dentro de la carpeta del proyecto
+```shell
+$ mvn clean test
+```
+* Mediante este comando se descargará el stub y se ejecutará el trest que verifica el endpoint para obtener la topografía de una ciudad (del toposervice))
 
 # Author
 
@@ -32,4 +50,4 @@ que se entregará con la práctica (ver instrucciones de entrega más abajo)
 
 * Github: [@zuldare](https://github.com/zuldare)
 
-Se debe tener [instalado JDK 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) y [Maven](https://maven.apache.org/install.html) 
+Se debe tener [instalado JDK 11](https://www.oracle.com/java/technologies/javase/javase-jdk11-downloads.html) y [Maven](https://maven.apache.org/install.html) 
