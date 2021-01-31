@@ -42,7 +42,7 @@ Lanzar el comando, dentro de la carpeta del proyecto
 ```shell
 $ mvn clean test
 ```
-* Mediante este comando se descargará el stub y se ejecutará el trest que verifica el endpoint para obtener la topografía de una ciudad (del toposervice))
+* Mediante este comando se descargará el stub y se ejecutará el test que verifica el endpoint para obtener la topografía de una ciudad (del toposervice)
 
 # Author
 
